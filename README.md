@@ -10,11 +10,19 @@ IdeaHive is a collaborative platform where users can share their ideas and vote 
 - **Community Engagement**: IdeaHive encourages active community participation by allowing users to comment on ideas, share feedback, and engage in discussions.
 - **User Profiles**: Each user has a profile that displays their submitted ideas, upvoted ideas, and engagement within the IdeaHive community.
 
+## Team members
+1. [Sandra M](https://github.com/Sandra-Rose)
+2. [Arjun M S](https://github.com/arjun-ms)
+3. [Adnan Kattekaden](https://github.com/adnankattekaden)
+
+## Link to product walkthrough
+(https://www.loom.com/share/xxxxx)
+
 ## Getting Started
 
 To run IdeaHive locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/ideahive.git`
+1. Clone the repository: `git clone https://github.com/arjun-ms/IdeaHive.git`
 2. Install the necessary dependencies by running: `npm install`
 3. Set up the database and configure the environment variables.
 4. Start the development server: `npm run dev`
