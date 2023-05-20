@@ -1,1 +1,1 @@
-# trio_appwrite
+# IdeaHive
