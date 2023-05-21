@@ -1,25 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.scss";
-import Login from "./Signin";
-import SignUp from "./Signup";
+import Login from "./Signin.js";
+import SignUp from "./Signup.js";
 import Box from "@mui/material/Box";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import routes from './routes';
-
+import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
+import Home from './Home'
 
 function App() {
   return (
-  //   <BrowserRouter>
+  // <Router>
+  //   <div>
   //   <Routes>
-  //     <Route path="/">
-  //       <Route path="signin" element={<Login />} />
-  //       <Route path="signup" element={<SignUp />} />
-  //     </Route>
-  //   </Routes>
-  // </BrowserRouter>
-    <div>
-      <Login />
-    </div>
+  //                <Route exact path='/signin' element={< Login />}></Route>
+  //                <Route exact path='/signup' element={< SignUp />}></Route>
+  //         </Routes>
+  //   </div>
+  //   </Router>
+  <Home/>
   );
 }
 

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import TextField from "@mui/material/TextField";
+import { Link } from 'react-router-dom';
 
 export default function SignUp() {
   return (
@@ -27,7 +28,9 @@ export default function SignUp() {
               <button class="button-28">Sign Up</button>
             </div>
             <div className="card_button">
+            <Link to="/signin">
               <button class="button-28">Log in</button>
+              </Link>
             </div>
           </div>
         </div>
