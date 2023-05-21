@@ -1,8 +1,29 @@
 import React, { useState } from "react";
 import TextField from "@mui/material/TextField";
 import { Link } from 'react-router-dom';
+import { account } from "./appwriteConfig";
+
+
 
 export default function SignUp() {
+  const googleAuth = (e) => {
+    e.preventDefault();
+
+    account.createOAuth2Session('google', 
+    // success
+    'http://localhost:3000/dash',
+    // error
+    'http://localhost:3000/');
+  };
+  // const githubAuth = (e) => {
+  //   e.preventDefault();
+
+  //   account.createOAuth2Session('github', 
+  //   // success
+  //   'http://localhost:3000/dash',
+  //   // error
+  //   'http://localhost:3000/');
+  // };
   return (
 
     <div className="Signup">
@@ -30,7 +51,13 @@ export default function SignUp() {
             <div className="card_button">
             <Link to="/signin">
               <button class="button-28">Log in</button>
-              </Link>
+            </Link>
+            <Link to="/signin">
+              <button class="button-28" onClick={(e)=>googleAuth(e)}>Google Signup </button>
+            </Link>
+            <Link to="/signin">
+              <button class="button-28" onClick={(e)=>githubAuth(e)}>Github Signup </button>
+            </Link>
             </div>
           </div>
         </div>
