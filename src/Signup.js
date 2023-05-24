@@ -25,7 +25,6 @@ export default function SignUp() {
   //   'http://localhost:3000/');
   // };
   return (
-
     <div className="Signup">
         <div className="container">
           <div className="card_area">
@@ -49,15 +48,17 @@ export default function SignUp() {
               <button class="button-28">Sign Up</button>
             </div>
             <div className="card_button">
-            <Link to="/signin">
+            {/* <Link to="/signin">
               <button class="button-28">Log in</button>
-            </Link>
+            </Link> */}
+            <div>Sign Up with</div>
+            <br/>
             <Link to="/signin">
               <button class="button-28" onClick={(e)=>googleAuth(e)}>Google Signup </button>
             </Link>
-            <Link to="/signin">
+            {/* <Link to="/signin">
               <button class="button-28" onClick={(e)=>githubAuth(e)}>Github Signup </button>
-            </Link>
+            </Link> */}
             </div>
           </div>
         </div>
