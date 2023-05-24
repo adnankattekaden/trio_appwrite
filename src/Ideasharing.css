@@ -1,0 +1,39 @@
+.idea-sharing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .idea-sharing__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+  } 
+  .idea-sharing__textarea {
+    width: 300px;
+    height: 120px;
+    resize: vertical;
+    margin-bottom: 10px;
+  }
+  
+  .idea-sharing__dropdown {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .idea-sharing__button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .idea-sharing__button:hover {
+    background-color: #0056b3;
+  }
+  

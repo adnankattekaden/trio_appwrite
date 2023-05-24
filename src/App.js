@@ -6,7 +6,7 @@ import Box from "@mui/material/Box";
 import { Routes, Route, Link } from 'react-router-dom';
 import Home from './Home'
 import Dashboard from './Dashboard'
-
+import IdeaSharing from "./Ideasharing";
 function App() {
   return (
 
@@ -15,6 +15,7 @@ function App() {
                <Route index path='/' element={< SignUp />}></Route>
                <Route exact path='/signin' element={< Login />}></Route>
                <Route exact path='/dash' element={< Dashboard />}></Route>
+               <Route exact path='/idea' element={< IdeaSharing />}></Route>
 
       </Routes>
     </div>
