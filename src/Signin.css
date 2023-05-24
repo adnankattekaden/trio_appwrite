@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;600&display=swap");
+
+.Signup {
+  background-image: url("./assets/background.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.sign-main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sign-div1 {
+  width: 30vw;
+  height: 30vw;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+}
+.sign-div1-title {
+  font-family: "Outfit", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #ffffff;
+}
+.sign-div1-para {
+  font-family: "Outfit", sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 200;
+}
+.sign-div2 {
+  width: 30vw;
+  height: 30vw;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.sign-div2-sub {
+  margin: 2px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+}
+.sign-div2-title {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.sign-div2-input {
+  text-decoration: none;
+  background-color: black;
+  height: 10%;
+  padding: 8px;
+  border: none;
+}
+.sign-div2-input::placeholder {
+  font-family: "Outfit";
+  color: #999999;
+  font-size: 12px;
+}
+.signup-button {
+  background: #0b8b50;
+  border: 1px solid #0b8b50;
+  padding: 2px;
+  height: 30px;
+  font-family: "Outfit";
+  color: #ffffff;
+  font-weight: 500;
+}
+.sign-div2-bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bot-desc {
+  font-family: "Outfit";
+  color: #b3cec3;
+  font-size: 12px;
+}
+.bot-link {
+  text-decoration: none;
+  font-family: "Outfit";
+  font-style: normal;
+  color: #0b8b50;
+  font-size: 12px;
+}
+.or {
+  font-family: "Outfit";
+  font-style: normal;
+  color: #ffffff;
+}
+.card_button{
+  display: flex;
+  flex-direction: column;
+  padding:20px;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .sign-main {
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sign-main{
+    flex-direction: column;
+  }
+  .sign-div2{
+    padding:2%;
+    width:38vw;
+    height:65vh;
+    flex-direction: column;
+  }
+  .sign-div1{
+    visibility: hidden;
+  }
+}
